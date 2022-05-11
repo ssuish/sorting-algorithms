@@ -14,5 +14,8 @@ for (int i = 0; i < numArr.Length; i++)
     numArr[i] = int.Parse(Console.ReadLine() ?? "0");
 }
 
-// Insertion Sort 
+// Insertion Sort
 
+// Selection Sort
+
+// Merge Sort
