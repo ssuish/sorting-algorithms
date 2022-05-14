@@ -1,7 +1,7 @@
 public class InsertionSort
 {
     // Insertion Sort
-    void InsertionSortAsc(int[] arr) // ascending order
+    public void InsertionSortAsc(int[] arr) // ascending order
     {
         int n = arr.Length;
         for (int i = 1; i < n; ++i)
@@ -19,7 +19,7 @@ public class InsertionSort
         }
     }
 
-    void InsertionSortDes(int[] arr) // descending order
+    public void InsertionSortDes(int[] arr) // descending order
     {
         int n = arr.Length;
         for (int i = 1; i < n; ++i)
@@ -27,7 +27,7 @@ public class InsertionSort
             int key = arr[i];
             int j = i - 1;
 
-            while (j >= 0 && arr[j] > key)
+            while (j >= 0 && arr[j] < key)
             {
                 arr[j + 1] = arr[j];
                 j = j - 1;
