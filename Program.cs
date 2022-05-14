@@ -4,7 +4,7 @@
 Create a complete C# program that allows user to input a series of integers and arrange 
 these in ascending and descending order applying the logical concepts involved in the 
 following sorting algorithms: Insertion Sort, Selection Sort or Merge Sort.
-*/
+
 
 int[] numArr = new int[10];
 
@@ -46,10 +46,9 @@ void printArray(int[] arr)
 {
     for (int i = 0; i < arr.Length; ++i)
         Console.Write(arr[i] + " ");
-}
+}*/
 
 // Selection Sort
 
 
 // Merge Sort
-
