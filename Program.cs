@@ -7,16 +7,40 @@ following sorting algorithms: Insertion Sort, Selection Sort or Merge Sort.
 */
 
 int[] numArr = new int[10];
-
 for (int i = 0; i < numArr.Length; i++)
 {
     Console.Write("Input a series of integers (up to 10 intergers only): ");
     numArr[i] = int.Parse(Console.ReadLine() ?? "0");
 }
 
-sort(numArr);
-Console.WriteLine("Sorted Array: ");
-printArray(numArr);
+while (true)
+{
+    Console.WriteLine("\nChoose a sorting method.\n [0]Insertion Sort\n [1]Selectin Sort\n [2]Merge Sort");
+    Console.Write("\nYour respoonse: ");
+    int choosen = int.Parse(Console.ReadLine() ?? "3");
+
+    if (choosen == 0)
+    {
+        sort(numArr);
+        Console.WriteLine("Sorted Array using Insertion method: ");
+        printArray(numArr);
+        break;
+    }
+    else if (choosen == 1)
+    {
+        break;
+    }
+    else if (choosen == 2)
+    {
+        break;
+    }
+    else
+    {
+        Console.WriteLine("\nInvalid Input");
+    }
+}
+
+
 
 // Insertion Sort
 void sort(int[] arr)
