@@ -17,7 +17,7 @@ public class SelectionSort
         }
     }
 
-    public void SelectionSortDes(int[] arr) // ascending order
+    public void SelectionSortDes(int[] arr) // descending order
     {
         int n = arr.Length;
 

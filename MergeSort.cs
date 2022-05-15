@@ -67,7 +67,7 @@ public class MergeSort
         }
     }
 
-    public void MergeSorting(int[] arr, int l, int r, int a) // ascending order
+    public void MergeSorting(int[] arr, int l, int r, int a) 
     {
         if (l < r)
         {
